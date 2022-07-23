@@ -6,10 +6,10 @@ def main():
     board = create_grid()
     pretty = printPretty(board)
     symbol_1, symbol_2 = sym()
-    full = isFull(board, symbol_1, symbol_2) #Функция запуска игры
+    full = isFull(board, symbol_1, symbol_2) # Функция запуска игры
     
 def intro():
-# This function introduces the rules of the game Tic Tac Toe
+# Правила игры
     print("Привет! Приветствую тебя в игре крестики-нолики")
     print("\n")
     print("Правила: Игрок 1 и игрок 2, обозначенные X и O, ходят по очереди. "
